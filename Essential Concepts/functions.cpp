@@ -12,7 +12,7 @@ int main()
     int x,y,c;
     x=10,y=20;
     //Actual parameter
-    c=add(x,y);             //Calling the function, when called add function activation record or stack frame is created
+    c=add(x,y);             //Calling the function, when called add function activation record or stack frame is created, when the function calling terminates stack frame also terminates
     cout<<c;
 
     return 0;
