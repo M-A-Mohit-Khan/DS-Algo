@@ -39,7 +39,7 @@ private:
     int breadth;
 
 public:
-    rectangle(int l,int b)
+    rectangle(int l,int b)          //This is constructor, same name as class that initiate the values
     {
         length=l;
         breadth=b;
@@ -60,8 +60,8 @@ public:
 };
 int main()
 {
-    rectangle r(5,5);
-    r.printLenghtBreadth();
+    rectangle r(5,5);                   //creating an objects named r and initialized
+    r.printLenghtBreadth();             //to access that (r) objects function use r.
     int area=r.area();
     cout<<area<<endl;
     r.changeLength(10);
